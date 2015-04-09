@@ -1,0 +1,6 @@
+[submodule "pyalgotrade"]
+	path = pyalgotrade
+	url = https://github.com/gbeced/pyalgotrade.git
+[submodule "trading-with-python"]
+	path = trading-with-python
+	url = https://github.com/sjev/trading-with-python.git
