@@ -4,3 +4,6 @@
 [submodule "trading-with-python"]
 	path = trading-with-python
 	url = https://github.com/sjev/trading-with-python.git
+[submodule "Yahoo-ticker-symbol-downloader"]
+	path = Yahoo-ticker-symbol-downloader
+	url = https://github.com/Benny-/Yahoo-ticker-symbol-downloader.git

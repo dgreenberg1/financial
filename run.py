@@ -1,3 +1,9 @@
-from pyalgotrade.pyalgotrade.tools import yahoofinance
+#import sys
+#sys.path.append('/home/ubuntu/projects/financial')
+from fetch import Fetch
 
-yahoofinance.download_daily_bars('orcl', 2000, 'orcl-2000.csv')
+fetch = Fetch()
+params = [('sc', 431)]
+
+stocklist = fetch.fetch_stocks(params)
+print stocklist
